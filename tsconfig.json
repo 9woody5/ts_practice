@@ -3,8 +3,9 @@
   "compilerOptions": {
     "outDir": "build", //js파일이 생성될 디렉토리 지정 - build라는 폴더에 넣겠다는 뜻
     "target": "ES6", //어떤 js버전으로 컴파일 할지 작성
-    "lib": ["ES6", "DOM"], //어떤 api를 사용할 지(js api타입에 대해 알려줌), 코드가 어떤 환경에서 실행될 지 알려줌
+    "lib": ["ES6"], //어떤 api를 사용할 지(js api타입에 대해 알려줌), 코드가 어떤 환경에서 실행될 지 알려줌
     "strict": true,
-    "allowJs": true
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
